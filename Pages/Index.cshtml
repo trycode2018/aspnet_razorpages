@@ -1,0 +1,23 @@
+﻿@page
+@model myRazorApp.wwwroot.Pages.Index
+   
+    <h1>Categories Table - Presentation </h1>
+    <table>
+        <thead>
+        <tr>
+            <td>ID</td>
+            <td>Title</td>
+            <td>Price</td>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in @Model.categories)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.Price</td>
+            </tr>
+        }
+        </tbody>
+    </table>

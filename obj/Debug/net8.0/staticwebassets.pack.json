@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\xampp\\htdocs\\myRazorApp\\wwwroot\\Pages\\Index.cshtml.cs",
+      "PackagePath": "staticwebassets\\Pages\\Index.cshtml.cs"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.myRazorApp.props",
+      "PackagePath": "build\\myRazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.myRazorApp.props",
+      "PackagePath": "buildMultiTargeting\\myRazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.myRazorApp.props",
+      "PackagePath": "buildTransitive\\myRazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.myRazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
